@@ -1,2 +1,3 @@
 # Mergify Security Lab
-This is a security test change.
+Testing the Mergify merge queue workflow.
+This is a security test change
