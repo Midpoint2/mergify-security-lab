@@ -7,6 +7,7 @@ queue_rules:
       - check-success = CI
     merge_method: squash
     batch_size: 1
+    branch_protection_injection_mode: merge
 
 pull_request_rules:
   - name: Queue test pull requests
