@@ -1,2 +1,3 @@
 B3 validation test
 Testing fresh Mergify validation after a source commit change.
+B3.4 - source changed during speculative validation
