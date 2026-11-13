@@ -2,5 +2,4 @@
 Mergify merge queue baseline test 1
 This is a security test change.
 Mergify automatic queue admission test 2
-Testing Mergify pre-approval queue admissions
-B2.5 source commit revalidation test
+Testing Mergify pre-approval queue admission
