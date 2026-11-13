@@ -17,3 +17,10 @@ pull_request_rules:
     actions:
       queue:
         name: default
+        
+priority_rules:
+  - name: urgent-priority-test
+    conditions:
+      - base = main
+      - label = priority-test
+    priority: high
