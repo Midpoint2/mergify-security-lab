@@ -19,8 +19,18 @@ pull_request_rules:
         name: default
         
 priority_rules:
-  - name: urgent-priority-test
+  - name: critical-priority-test
     conditions:
-      - base = main
-      - label = priority-test
-    priority: high
+      - label = priority-critical
+    priority: 5000
+
+  - name: normal-priority-test
+    conditions:
+      - label = priority-normal
+    priority: 2000
+
+  - name: low-priority-test
+    conditions:
+      - label = priority-low
+    priority: 1000
+    
