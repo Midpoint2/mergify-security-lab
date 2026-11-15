@@ -23,14 +23,16 @@ priority_rules:
     conditions:
       - label = priority-critical
     priority: 5000
+    allow_checks_interruption: true
 
   - name: normal-priority-test
     conditions:
       - label = priority-normal
     priority: 2000
+    allow_checks_interruption: true
 
   - name: low-priority-test
     conditions:
       - label = priority-low
     priority: 1000
-    
+    allow_checks_interruption: true
